@@ -120,7 +120,6 @@ class App extends React.Component {
               dataSource: this.generateStaticEvents(new Date(2018, 4, 1), 300, 12),
             }}
             group={{ resources: ['Resources'] }}
-            readonly={true}
             eventRendered={this.eventTemplate.bind(this)}
             resourceHeaderTemplate={this.resourceHeaderTemplate.bind(this)}
           >
